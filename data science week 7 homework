@@ -1,0 +1,17 @@
+1. How do you control for biases?
+use random sampling or assignment, cross validation might also be a good way to check
+
+2. What are confounding variables?
+other variables that affect the experiment outside the independent variable, leading to less fair experiment
+
+3. What is A/B testing?
+Null hypothesis testing
+
+4. When will you use Welch t-test?
+when you want to compare the means of two independent groups when the assumption of equal variances is violated.
+
+5.A company claims that the average time its customer service representatives spend on the phone per call is 6 minutes. You believe that the average time is actually higher. You collect a random sample of 50 calls and find that the average time spent on the phone per call in your sample is 6.5 minutes, with a standard deviation of 1.2 minutes. Test whether there is sufficient evidence to support your claim at a significance level of 0.05.
+ calculated t value = 2.9 > critical value of 1.69
+ there is sufficient evidence to prove my point is correct.
+
+6. A researcher wants to determine whether there is a difference in the mean scores of two groups of students on a math test. Group A consists of 25 students who received traditional teaching methods, while Group B consists of 30 students who received a new teaching method. The average score for Group A is 75, with a standard deviation of 8, and the average score for Group B is 78, with a standard deviation of 7. Test whether there is a significant difference in the mean scores of the two groups at a significance level of 0.05.
